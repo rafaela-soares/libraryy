@@ -19,7 +19,7 @@ jobs:
         with:
           path: Dockerfile
           # to continue with findings - not stop the build
-          # fix error 50
+
           ignore_on_exit: results
           # when provided with a directory on output_path
           # it will generate the specified reports file named 'results.{extension}'
